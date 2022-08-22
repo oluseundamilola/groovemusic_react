@@ -1,0 +1,153 @@
+.music_container{
+    position: fixed;
+    top: 0; 
+}
+.bg{
+    position: relative;
+}
+.dark{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.576);
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.dance{
+    font-family: 'Seaweed Script', cursive;
+    font-size: 80px;
+    margin: 30px;
+}
+.fixedRight{
+    position: fixed;
+}
+.song_Container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.topBox{
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.765);
+    position: absolute;
+}
+.artistImg{
+    width: 433px;
+    object-fit: cover;
+    /* width: 100%; */
+    overflow: hidden;
+}
+.words{
+    margin-right: 20px;
+    color: white;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+.h2{
+    font-weight: 300;
+}
+
+.bottomBox{
+    flex: 3;
+    background: linear-gradient(to top, rgba(251, 251, 251, 0),  rgb(196, 196, 196));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.song{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgBox{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.progessBar{
+    margin-top: 40px;
+    width: 300px;
+    height: 3px;
+    background-color: rgb(151, 151, 151);
+}
+.progress{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(27, 27, 27);
+}
+.progressCricle{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 100%;
+}
+.songTime{
+    margin-top: 10px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.songtimeNumber{
+    color: gray;
+    font-size: 12px;
+}
+
+.songInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.singer{
+    color: rgb(77, 77, 77);
+    font-size: 14px;
+}
+.playCircle{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 50%;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 80px;
+
+}
+.playArrow{
+    font-size: 80px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forward{
+    width: 80px;
+    height: 80px;
+    background-color: none;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-color: rgb(208, 208, 208);
+}
